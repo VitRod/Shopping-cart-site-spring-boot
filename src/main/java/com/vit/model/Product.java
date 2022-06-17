@@ -3,74 +3,73 @@ package com.vit.model;
 import java.math.BigDecimal;
 
 public class Product {
-	
+
 	private Long id;
-	
-	private  String name;
-	
+
+	private String name;
+
 	private String description;
-	
-	private  Integer quantity;
-	
+
+	private Integer quantity;
+
 	private BigDecimal price;
-	
-	
+
 	public Long getId() {
-        return id;
-    }
+		return id;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public String getDescription() {
-        return description;
-    }
+	public String getDescription() {
+		return description;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
-    public Integer getQuantity() {
-        return quantity;
-    }
+	public Integer getQuantity() {
+		return quantity;
+	}
 
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
-    }
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
 
-    public BigDecimal getPrice() {
-        return price;
-    }
+	public BigDecimal getPrice() {
+		return price;
+	}
 
-    public void setPrice(BigDecimal unitPrice) {
-        this.price = unitPrice;
+	public void setPrice(BigDecimal unitPrice) {
+		this.price = unitPrice;
 
-    }
-    
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+	}
 
-        Product product = (Product) o;
+	@Override
+	public boolean equals(Object o) {
+		if (this == o)
+			return true;
+		if (o == null || getClass() != o.getClass())
+			return false;
 
-        return id.equals(product.id);
-    }
+		Product product = (Product) o;
 
-    @Override
-    public int hashCode() {
-        return id.hashCode();
-    }
-        
-        
-        
+		return id.equals(product.id);
+	}
+
+	@Override
+	public int hashCode() {
+		return id.hashCode();
+	}
+
 }
