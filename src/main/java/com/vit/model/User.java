@@ -14,7 +14,7 @@ public class User {
 	
 	private String lastName;
 	
-	private int active;
+	private int active;    
 	
 	public Long getId() {
 		return id;
