@@ -6,14 +6,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 
-//@Controller
-//public class LoginController {
-//
-//	@GetMapping("/home")
-//	public String login() {
-////		if(principal != null) {
-////			return "Hello World";
-////		}
-//		return "/home";
-//	}
-//}
+@Controller
+public class LoginController {
+
+	@GetMapping("/login")
+	public String login(Principal principal) {
+		if(principal != null) {
+			return "redirect:/home";
+		}
+		return "/login";
+	}
+}
