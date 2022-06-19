@@ -13,8 +13,7 @@ public class ShoppingCartController {
 	public  ModelAndView shoppingCart() {
 		Product products = new Product();
 		ModelAndView modelAndView = new ModelAndView("/shoppingCart");
-//		modelAndView.addObject("products", products);
-//		modelAndView.setViewName("/shoppingCart");
+
 		return modelAndView;
 		
 	}	
