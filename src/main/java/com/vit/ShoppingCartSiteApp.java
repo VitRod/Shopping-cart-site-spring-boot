@@ -10,6 +10,6 @@ public class ShoppingCartSiteApp {
 		SpringApplication.run(ShoppingCartSiteApp.class, args);
 	}         
 	
-	    
+	          
 }
                                                                                         
