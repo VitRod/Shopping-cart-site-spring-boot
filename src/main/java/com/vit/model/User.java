@@ -1,5 +1,6 @@
 package com.vit.model;
 
+
 public class User {
 
 	private Long id;
