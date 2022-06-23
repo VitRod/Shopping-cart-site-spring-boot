@@ -36,7 +36,7 @@ public class Pager {
         return products.getTotalElements();
     }
 
-    public boolean indexOutOfBounds() {
+    public boolean indexOutOfBounds() {          
         return this.getPageIndex() < 0 || this.getPageIndex() > this.getTotalElements();
     }
 
