@@ -7,10 +7,11 @@ import org.springframework.data.domain.Pageable;
 
 import com.vit.model.Product;
 
+
 public interface ProductService {
-	
-	Optional<Product> findById(Long id);
-	
-	Page<Product> findAllProductsPageable(Pageable pageable);
+
+    Optional<Product> findById(Long id);
+
+    Page<Product> findAllProductsPageable(Pageable pageable);
 
 }

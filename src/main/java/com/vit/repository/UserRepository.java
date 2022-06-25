@@ -10,6 +10,6 @@ import com.vit.model.User;
 public interface UserRepository extends JpaRepository<User, Long> {
 	Optional<User> findByEmail(@Param("email") String email);
 	
-	Optional<User> findByUserName(@Param("username") String username);
+	Optional<User> findByUsername(@Param("username") String username);
 		
 }
