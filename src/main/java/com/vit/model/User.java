@@ -20,7 +20,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name="users")
+@Table(name="user")     
 public class User {
 
 	@Id
