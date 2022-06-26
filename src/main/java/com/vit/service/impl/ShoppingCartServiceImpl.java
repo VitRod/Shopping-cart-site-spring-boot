@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.web.context.WebApplicationContext;
 
+import com.vit.exception.NotEnoughProductsInStockException;
 import com.vit.model.Product;
 import com.vit.repository.ProductRepository;
 import com.vit.service.ShoppingCartService;
@@ -87,7 +88,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
             // Refresh quantity for every product before checking
             product = productRepository.findOne(entry.getKey().getId());
             if (product.getQuantity() < entry.getValue())
-                throw new Exception();
+                throw new NotEnoughProductsInStockException();
             entry.getKey().setQuantity(product.getQuantity() - entry.getValue());
         }
         productRepository.save(products.keySet());
