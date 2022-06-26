@@ -29,7 +29,7 @@ INSERT INTO USER_ROLE (user_id, role_id)
 VALUES (2, 2);
 INSERT INTO USER_ROLE (user_id, role_id)
 VALUES (3, 2);
-
+     
 INSERT INTO PRODUCT (name, description, quantity, price)
 VALUES ('Soap', 'Pears baby soap for Kids', 1, 35.75);
 INSERT INTO PRODUCT (name, description, quantity, price)
@@ -49,4 +49,4 @@ VALUES ('Shampoo', 'Head and Shoulders Shampoo', 500, 300.00);
 INSERT INTO PRODUCT (name, description, quantity, price)
 VALUES ('Leather Wallets', 'Imported Leather Wallets from AUS', 1000, 500.00);
 INSERT INTO PRODUCT (name, description, quantity, price)
-VALUES ('Camera', 'Imported Canon camera from USA', 10, 85000.00);
+VALUES ('Camera', 'Imported Canon camera from USA', 10, 85000.00);    
