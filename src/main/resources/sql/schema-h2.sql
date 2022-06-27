@@ -57,4 +57,8 @@ VALUES ('Printer', 'HP', 50, 120.00);
 INSERT INTO PRODUCT (name, description, quantity, price)
 VALUES ('Smartphone', 'Sumsung', 9, 600.00);  
 INSERT INTO PRODUCT (name, description, quantity, price)
-VALUES ('TV', 'LG', 10, 1000.00);  
+VALUES ('TV', 'LG', 10, 1000.00); 
+INSERT INTO PRODUCT (name, description, quantity, price)
+VALUES ('Chair', 'Gaming chair', 15, 500.00);  
+INSERT INTO PRODUCT (name, description, quantity, price)
+VALUES ('Laptop', 'ACER for  games', 20, 1500.00);  
