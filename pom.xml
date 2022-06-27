@@ -102,13 +102,13 @@
 		
 		
 
-		<!-- Optional, for bootstrap -->
+		<!-- Optional, library for bootstrap  -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
 			<version>3.3.7</version>
 		</dependency>
-		<!-- Optional, for jQuery -->
+		<!-- Optional, library for jQuery -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
