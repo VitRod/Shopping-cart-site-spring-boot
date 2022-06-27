@@ -54,3 +54,7 @@ INSERT INTO PRODUCT (name, description, quantity, price)
 VALUES ('Pen', 'Parker from USA', 20, 20.00);    
 INSERT INTO PRODUCT (name, description, quantity, price)
 VALUES ('Printer', 'HP', 50, 120.00);  
+INSERT INTO PRODUCT (name, description, quantity, price)
+VALUES ('Smartphone', 'Sumsung', 9, 600.00);  
+INSERT INTO PRODUCT (name, description, quantity, price)
+VALUES ('TV', 'LG', 10, 1000.00);  
