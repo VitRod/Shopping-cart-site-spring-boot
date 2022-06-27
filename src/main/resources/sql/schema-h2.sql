@@ -49,4 +49,8 @@ VALUES ('Shampoo', 'Head and Shoulders Shampoo', 500, 300.00);
 INSERT INTO PRODUCT (name, description, quantity, price)
 VALUES ('Leather Wallets', 'Imported Leather Wallets from AUS', 1000, 500.00);
 INSERT INTO PRODUCT (name, description, quantity, price)
-VALUES ('Camera', 'Imported Canon camera from USA', 10, 85000.00);    
+VALUES ('Camera', 'Imported Canon camera from USA', 10, 85000.00); 
+INSERT INTO PRODUCT (name, description, quantity, price)
+VALUES ('Pen', 'Parker from USA', 20, 20.00);    
+INSERT INTO PRODUCT (name, description, quantity, price)
+VALUES ('Printer', 'HP', 50, 120.00);  
