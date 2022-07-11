@@ -2,7 +2,7 @@
 
 # Site in Java with shopping cart, login and registration pages    
 
-![pics](https://pbs.twimg.com/media/FXW4naAXgAQbG3R?format=jpg&name=small)
+![pics](https://pbs.twimg.com/media/FXXC4swXoAAazbQ?format=png&name=small)
 ![pic](https://pbs.twimg.com/media/FXWryZaX0AAMQ11?format=png&name=small)
 ![picture](https://pbs.twimg.com/media/FXWCCkiWQAAwGrh?format=png&name=small)
 ![picture](https://pbs.twimg.com/media/FWQiVhwWIAAfZlF?format=png&name=small)
