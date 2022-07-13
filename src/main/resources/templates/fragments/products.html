@@ -9,7 +9,7 @@
 
 
   <div class="panel-success" th:each="product : ${products}" >
-        <div class="panel-heading">   
+        <div class="panel-heading">        
             <h1 th:text="${product.name}"></h1>    
         </div>
         <h3 th:text="${product.description}" class="panel-body">Description</h3>            
