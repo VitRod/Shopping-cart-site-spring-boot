@@ -2,7 +2,7 @@
 
 # Site in Java with shopping cart, login and registration pages    
 
-![pics](https://pbs.twimg.com/media/FXY2qARXkAAD6Cg?format=png&name=small)
+![pics](https://github.com/VitRod/Shopping-cart-site-spring-boot/blob/main/github.png)
 ![pic](https://pbs.twimg.com/media/FXWryZaX0AAMQ11?format=png&name=small)
 ![picture](https://pbs.twimg.com/media/FXWCCkiWQAAwGrh?format=png&name=small)
 ![picture](https://pbs.twimg.com/media/FWQiVhwWIAAfZlF?format=png&name=small)
