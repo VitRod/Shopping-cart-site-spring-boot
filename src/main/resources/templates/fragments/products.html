@@ -13,7 +13,7 @@
             <h1 th:text="${product.name}"></h1>    
         </div>
         <h3 th:text="${product.description}" class="panel-body">Description</h3>            
-        
+           
         <div class="row panel-footer">
         	 <div th:inline="text" class="col-md-2">Price: [[${product.price}]] $</div>                   
         	<div th:inline="text" class="col-md-9">In Stock: [[${product.quantity}]]</div>                                                                                                                                                 
