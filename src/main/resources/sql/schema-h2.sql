@@ -19,7 +19,7 @@ VALUES (4, '$2a$06$OAPObzhRdRXBCbk7Hj/ot.jY3zPwR8n7/mfLtKIgTzdJa4.6TwsIm', 'vit@
 INSERT INTO ROLE (role_id, role)       
 VALUES (1, 'ROLE_ADMIN');
 INSERT INTO ROLE (role_id, role)
-VALUES (2, 'ROLE_USER');
+VALUES (2, 'ROLE_USER');    
 
 INSERT INTO USER_ROLE (user_id, role_id)
 VALUES (1, 1);
