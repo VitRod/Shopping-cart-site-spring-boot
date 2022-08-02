@@ -21,7 +21,7 @@ VALUES (1, 'ROLE_ADMIN');
 INSERT INTO ROLE (role_id, role)
 VALUES (2, 'ROLE_USER');    
       
-INSERT INTO USER_ROLE (user_id, role_id)
+INSERT INTO USER_ROLE (user_id, role_id)   
 VALUES (1, 1);
 INSERT INTO USER_ROLE (user_id, role_id)
 VALUES (1, 2);
