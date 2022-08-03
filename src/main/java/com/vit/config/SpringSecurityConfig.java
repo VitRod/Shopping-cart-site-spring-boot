@@ -46,7 +46,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     }             
                               
     /**    
-     * HTTPSecurity configurer
+     * HTTPSecurity configurer     
      * - roles ADMIN allow to access /admin/**
      * - roles USER allow to access /user/** and /newPost/**
      * - anybody can visit /, /home, /about, /registration, /error, /blog/**, /post/**, /h2-console/**
