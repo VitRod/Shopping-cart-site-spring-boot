@@ -26,7 +26,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     private final AccessDeniedHandler accessDeniedHandler;
 
     final DataSource dataSource;
-
+    
     @Value("${spring.admin.username}")
     private String adminUsername;
 
