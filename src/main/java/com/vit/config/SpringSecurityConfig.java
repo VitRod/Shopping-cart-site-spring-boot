@@ -43,7 +43,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     public SpringSecurityConfig(AccessDeniedHandler accessDeniedHandler, DataSource dataSource) {
         this.accessDeniedHandler = accessDeniedHandler;
         this.dataSource = dataSource;
-    }         
+    }             
                           
     /**    
      * HTTPSecurity configurer
