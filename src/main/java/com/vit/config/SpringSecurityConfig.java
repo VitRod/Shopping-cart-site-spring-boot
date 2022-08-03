@@ -45,7 +45,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         this.dataSource = dataSource;
     }         
                           
-    /**
+    /**    
      * HTTPSecurity configurer
      * - roles ADMIN allow to access /admin/**
      * - roles USER allow to access /user/** and /newPost/**
