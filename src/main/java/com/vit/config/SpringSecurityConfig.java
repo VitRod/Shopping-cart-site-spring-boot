@@ -31,7 +31,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     private String adminUsername;
 
     @Value("${spring.admin.username}")
-    private String adminPassword;
+    private String adminPassword;     
 
     @Value("${spring.queries.users-query}")    
     private String usersQuery;
