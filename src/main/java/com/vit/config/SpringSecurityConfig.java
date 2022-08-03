@@ -44,7 +44,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         this.accessDeniedHandler = accessDeniedHandler;
         this.dataSource = dataSource;
     }
-
+    
     /**
      * HTTPSecurity configurer
      * - roles ADMIN allow to access /admin/**
