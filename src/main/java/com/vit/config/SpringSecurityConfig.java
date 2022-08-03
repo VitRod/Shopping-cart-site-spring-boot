@@ -42,7 +42,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired      
     public SpringSecurityConfig(AccessDeniedHandler accessDeniedHandler, DataSource dataSource) {
         this.accessDeniedHandler = accessDeniedHandler;
-        this.dataSource = dataSource;
+        this.dataSource = dataSource;    
     }             
                               
     /**    
