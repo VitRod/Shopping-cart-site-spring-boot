@@ -16,7 +16,7 @@ public class CustomErrorController implements ErrorController {
         return new ModelAndView("/error");
     }
 
-    @GetMapping("/403")
+    @GetMapping("/403")    
     public ModelAndView error403() {    
         return new ModelAndView("/403");
     }
