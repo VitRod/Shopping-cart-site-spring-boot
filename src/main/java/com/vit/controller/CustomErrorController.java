@@ -20,9 +20,9 @@ public class CustomErrorController implements ErrorController {
     public ModelAndView error403() {            
         return new ModelAndView("/403");    
     }      
-                                          
+                                               
     @Override             
-    public String getErrorPath() {         
+    public String getErrorPath() {              
         return PATH;
     }                    
 }                                                  
